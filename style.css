@@ -1,0 +1,47 @@
+body{
+    color: antiquewhite;
+}
+a{
+    color: rgb(20, 117, 208);
+    font-size: larger;
+}
+ul{
+    font-size: larger;
+}
+p{
+    font-size: larger;
+}
+td{
+    padding: 10px;
+}
+.lare-button{
+    width: 150px;
+    height: 50px;
+}
+hr{
+    border: none;
+    border-top:double
+}
+.color-changing-text{
+    animation: colorchange 4s infinite;
+}
+@keyframes colorchange{
+    0%{
+        color: red;
+    }
+    25%{
+        color: blue;
+    }
+    50%{
+        color: green;
+    }
+    75%{
+        color: orange;
+    }
+    100%{
+        color: purple;
+    }
+}
+a:hover{
+    color: chartreuse;
+}
